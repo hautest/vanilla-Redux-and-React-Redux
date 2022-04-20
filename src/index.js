@@ -4,10 +4,8 @@ const number = document.querySelector("span");
 
 let count = 0;
 
-//ddddddddㅇㅇ
 const updateText = () => {
   number.innerText = count;
-  console.log(count);
 };
 
 const handleAdd = () => {
